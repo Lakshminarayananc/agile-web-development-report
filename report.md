@@ -27,9 +27,9 @@ Introduction
 
 This report describes organizing Agile Web Development (AWD) course at Department of Software Systems at Tampere University of Technology in April 2008.
 
-The course was organized for the first time this year. The purpose of this report is to document the experiences from the course and to help decide what to do with the course next year. Since the course was novel in many ways, perhaps this report can also benefit other courses.
+The course was organized for the first time this year. The purpose of this report is to document the experiences from the course and to help decide what to do with the course next year. Since the course was novel in many ways, teachers of other courses may find this report useful as well.
 
-In the rest of this report, we describe (a) the educational goals of the course, (b) how the course was structured to achieve those goals, (c) experiences from the actual course implementation, (d) the feedback from students and customers, and finally (e) conclusions and the changes we propose for the next year's course.
+In the rest of this report, we describe (a) the educational goals of the course, (b) how the course was structured to achieve those goals, (c) lecturer's experiences from the course, (d) the feedback from students and customers, and finally (e) conclusions and the changes we propose for the next year's course.
 
 
 Educational Goals
@@ -73,53 +73,57 @@ The course lasted 13 days, starting on Wednesday, April 9, 2008, and ending on F
 
 The setting of the course was decided to resemble real-life project work in a fast-paced project. The first three days were preparation. After that, students worked in pairs. Each pair had their own project with a real customer.
 
-The original lecture plan for the beginning of the course was as follows:
+The original topic plan for the first week was as follows:
 
 * Wednesday: Introduction. Basics of Ruby.
 * Thursday: Test-driven development.
 * Friday: Basics of Ruby on Rails. Scrum project management.
 
-We decided to wait and see, before making plans for the other two weeks. This turned out to be a good decision, since the teaching proceeded more slowly than we had anticipated. 
+We decided to wait and see, before making plans for the other two weeks. This turned out to be a good decision, since the teaching proceeded more slowly than we had anticipated. The actual topics of the first three days were:
 
 * Wednesday: Introduction. Very basics of Ruby.
 * Thursday: Test-driven development.
 * Friday: More Ruby. Very little of Ruby on Rails.
 
-The customers presented the projects to the teams on the first day of the second week. The rest of the day was for planning the project work.
+For the rest of the course, project work was intertwined with lectures and sometimes exercises. The topics of the lectures were various aspects of Ruby on Rails, web development and agile development
 
-For the rest of the course, project work was intertwined with lectures and sometimes exercises. The topics of the lectures were various aspects of Ruby on Rails, web development and agile development. 
-
-The original idea was to divide work in to two one-week sprints. In practice, most groups did not follow Scrum carefully, and there was no feeling of completion at the end of the first sprint.
-
-On the last day students presented their finished project to other students.
+The project work divided into two one-week sprints. In practice the effect was not very good, as Scrum was followed quite liberally.
 
 For a more detailed description of the course structure, see the [course diary](diary.html).
 
-Experiences
------------
+Lecturer's Experiences
+----------------------
 
-Ten students enrolled to the course. Five of them were Finnish students from TUT, the other five foreign exchange students. 
+In this chapter we present our experiences from the course. They are in no particular order.
 
-The teaching of 
+Ten students enrolled to the course. Five of them were Finnish students from TUT, the other five foreign exchange students. Most of the students had software development as their major subject. There was a wide range of skills, but even the worst students had good enough skills for attending, and eventually completing the course.
 
-There were 
+There was a noticeable difference between the Finns and the foreign students. The Finns seemed more ready for the course, and in the end got better results. There are many possible reasons for this: communication difficulties, prior skills, the lecturer being a TUT alumni, etc. There was a difference in attitude about learning agile development, again Finns being more interested in it. In learning web development and finishing the project, all students showed very good attitude. 
+
+Students were enthusiastic about finishing their project. I had to remind the students of the lecture breaks and even then many of them often decided to skip them. (I, on the other hand, almost never skipped a break.) On many days, some of the students continued working after 16:00. This all even when the course corresponded with the first warm sunny days of the spring.
+
+I underestimated how much of students' time would be consumed by working with technical details. This reduced the attention they could focus on agile principles. I realized this early on the second week. I had planned to mandate Test-driven development, but decided against it, so that the students wouldn't get buried under all the things they had to learn.
+
+I had underestimated the time the first week's exercises would take. This further added to the technical detail burden of the second week. 
 
 
-For lecturer's day-to-day experiences from the course, see the [course diary](diary.html).
 
+Some teams 
 
-
-* deviance from the plan
-  * teaching slower
   * agile part smaller: 1. no TDD 2. Scrum not really Scrum
   * less dialogue with customer
+
 
 * impressions of student work
   * enthusiasm
   * focus on technical issues
-  * two groups: those who were interested in agile and those who weren't. roughly corresponded to Finns-foreigners
 
 * link to course diary
+
+
+
+For lecturer's day-to-day experiences from the course, see the [course diary](diary.html).
+
 
 ### Things that worked well
 
