@@ -5,7 +5,7 @@ Agile Web Development course, spring 2008
 Abstract
 --------
 
-We organized a thirteen-day Agile Web Development course at Department of Software Systems at Tampere University of Technology in April 2008. The goal of the course was to teach students agile development practices and web programming in a fast-paced project with real customers. 
+We organized a thirteen-day Agile Web Development course at Department of Software Systems at Tampere University of Technology in April 2008. The goal of the course was to teach students agile development and web programming in a fast-paced project with real customers. 
 
 The daily sessions started at 9:00 each morning and lasted till 16:00, with a one-hour lunch break at the middle of the day. First three days were preparation for the project assignment. On the remaining ten days, lectures and exercises were intertwined with project work. 
 
@@ -17,7 +17,7 @@ Feedback from students was very positive.
 
 ![Feedback average 4.4 where 5 = very good and 1 = very bad](charts/overall2.png "Student feedback")
 
-We propose that the same course be given next year with a few changes. Most notably, to ease wrestling with technical issues during the project work and to allow more focus on agile programming practices, the course preparation period should be lengthened from three days to five, bringing the total length of the course to fifteen days. We also propose creation of another course "Agile customership", 1 cu.
+We propose that the same course be given next year with a few changes. Most notably, to ease wrestling with technical issues during the project work and to allow more focus on agile programming practices, the course preparation period should be lengthened from three days to five, bringing the total length of the course to fifteen days. We also propose creation of another course "Agile customership", 1 cp.
 
 
 Introduction
@@ -33,46 +33,56 @@ Goals
 
 We had three educational goals.
 
-1. To teach students agile principles.
-2. To teach students agile methods in practice. 
-3. To teach them programming with a modern web framework.
+1. To teach students agile values.
+2. To teach students agile practices. 
+3. To teach students programming with a modern web framework.
+
+The setting of the course was decided to resemble real-life project work in a fast-paced project.
+
+In addition to the educational goals, 
 
 
-### Agile principles
 
-Agile principles describe an understanding - or a widely shared opinion - of what is important in software development. They are not unique to agile methodologies. What differentiates agile from traditional software is the stress that agile puts on these principles.
+### Agile values
 
-The canonical source of agile principles is the [agile manifesto](TODO). As with any such document, the interpretation of agile manifesto differs from person to person. What follows, is our interpretation of these principles.
+Agile software development is a fuzzy term that encompasses a lot of different methodologies. The different methodologies can differ a lot in practice. They do, however, share values: a core set of beliefs about what is important in software development. The difference between agile methodologies and traditional software development is the stress agile methodologies put on these values. The most widely cited description of agile values is [Agile Manifesto](TODO).
 
-The principles we tried to teach students were the following:
+The first goal of the course was to teach the students agile values. We stressed the following three principles.
 
-* **Minimality**: The price of a project as a function of its requirements grows faster than linearly. Besides requirements, the same holds true with the number of developers, the amount of documentation, and the size of the code base. To maximize the impact we should minimize the size of the project to include just what is needed and nothing more.
-* **Change**: Customer's understanding of his own needs are always lacking, and thus requirements will always change. The project should prepare for this change. 
-* **Understanding**: Work done without understanding its need leads to trouble. Developer should always understand (a) what he is trying to achieve and (b) why is he trying to achieve it. We can find the root cause by following the chain of whys. The root cause should almost always be "because the customer wants it and we believe it's for the best of the customer". Also, a task done without understanding why it works leads to trouble. Code that "works" is not maintainable if we don't understand how it works.
+* **Minimality**: The price of a project as a function of its requirements grows faster than linearly. Besides requirements, the same holds true with the number of developers, the amount of documentation, and the size of the code base. The project should include just what is needed and nothing more. 
+* **Change**: Customer's understanding of his own needs is always lacking, and thus requirements will always change. The project should prepare for this change. 
+* **Understanding**: Work done without understanding it leads to trouble. Developer should always understand (a) what he is trying to achieve and (b) why is he trying to achieve it and (c) how he is trying to achieve it.
 
-Combined, there are a few consequences from these principles:
+Combined, there are a few consequences from these values:
 
-* **Minimality+Change**: Preparation for future grows the project, but may end up outdated. It is very important that plans are lightweight and easily thrown away when outdated.
-* **Minimality+Understanding**: There is a need to understand e.g. the domain area, and document that understanding. On the other hand, we want to minimize the amount of documentation. Thus, we should document our understanding in code. The code should always represent our best understanding of the domain area. The code should be viewed as the most important design document for the project.
-* **Change+Understanding**: The developers' and customer's understanding of the project area should keep improving throughout the project. Much of this comes from the dialogue between them. Customer should have a concrete understanding of what is the status of the project, and where it is heading. Because the future is very uncertain, the basis for the feedback should be a working prototype of the system. Project iterations should be very short and result in a working software that the customer can evaluate.
+* **Minimality+Change**: Preparation for future enlarges the project. Often the plans end up outdated. It is very important that plans are lightweight and easily thrown away when outdated.
+* **Minimality+Understanding**: It is important to understand e.g. the domain area and document that understanding somehow. On the other hand, the amount of documentation should be minimized. One document we cannot work without is the program code. Thus, whenever possible, we should store our understanding in the code, not in external documentation. A high priority should be given to keeping the code as readable and as descriptive as possible.
+* **Change+Understanding**: The developers' and customer's understanding of the software should keep improving throughout the project. Much of this comes from the dialogue between them. Customer should have a concrete understanding of what is the status of the project, and where it is heading. Because the future is very uncertain, the basis for the feedback should be a working prototype of the system. Thus, project iterations should be short and result in a working software that the customer can evaluate.
 
 
-### Agile methods
+### Agile practices
 
-Agile methods are ways to achieve the agile principles in practice. They are important but somewhat meaningless without the understanding of the principles. There is a very large number of different agile methods, which we pruned to a few. The priority of the course was to teach:
+Agile practices are methods to achieve the agile values. As with agile practices 
 
-* test-driven development (or actually behaviour-driven development)
+There is a large number of different agile practices, which we pruned to a few. The priority of the course was to teach:
+
+* test-driven development (or actually behaviour-driven development), and
 * scrum project management
 
-In addition to these, the following were planned to be taught if the time would allow:
+In addition to these, the we planned to teach these, if the time would allow:
 
-* continuous integration
-* refactoring
-* pair programming
-* retrospectives
+* continuous integration,
+* refactoring,
+* pair programming, and
+* retrospectives.
 
-Web programming...
 
+### Web programming
+
+The goal 
+
+
+### Other goals
 
 In addition to the educational goals, the course had two other goals: 
 
@@ -114,6 +124,11 @@ Implementation
 
 * link to course diary
 
+### Things that worked well
+
+
+
+
 Feedback
 --------
 
@@ -128,19 +143,49 @@ Feedback
   * 
 
 
-Summary
--------
+Conclusions
+-----------
 
-* course was a partial success
-  * was beneficial the way it was
-  * didn't achieve all goals
-  * can be much better
+The course was a partial success. Three goals were set for the course: to teach agile values, agile practices and web programming. Out of these only the last one was realized with satisfactorily. However, the student feedback from the course was very positive.
 
-### Proposed changes for next year
+We believe that the course - implemented even as it was this year - would be a valuable addition to the department's course palette. The course can be made still much better. Therefore, we propose that the course be given next year, but with a few changes.
 
-* longer course
-* course for customers
+### Planned changes for the next year
 
+We plan to make the following changes for the next year's course.
+
+* **The course will be lengthened from 13 days to 15 days.** This will allow for more preparation before the actual assignment work begins. The focus of the preparation will be teaching technical details. This way the work on the assignment should feel less painful and more agile. 
+  
+  Our plan for the structure of the first week looks like this:
+  
+  1. Monday: Introduction to the course. Learning to use the programming tools. Learning Ruby.
+  2. Tuesday: Learning more Ruby.
+  3. Wednesday: Learning Rails and the tool support for it.
+  4. Thursday: Learning more Rails.
+  5. Friday: Learning TDD with Spec:Rails.
+
+  This should also give students a better chance to estimate how much they can achieve during the project, and the Scrum sprint goals will be more meaningful. 
+
+  The two weeks of project work will be much like they were this year, only more structured, and possibly with additional lectures about agile topics.
+
+* **The use of test-driven development will be mandated.** With all the other things they need to learn, this may feel painful to students at first. This is exactly the reason why students are unlikely to adopt it by themselves, and why it should be mandated.
+
+* **The preparation of the Scrum sprints will be guided more carefully. Explicit sprint goals will be set.** This will give students a better understanding of Scrum.
+
+* **Specific times will be set aside for customer interaction.**
+
+
+### Proposal for another course: Working as an agile customer, 1 cp. 
+
+The project customers wished for more guidance in preparing, monitoring and steering the project.
+
+Therefore we propose a creation of another course. The students of this course would work as customers on the Agile Web Development course. The name of the course would be "Working as an agile customer" and its size one credit point.
+
+The course would consist of lectures, a workshop, and the project work. The workshop would consist of lectures and prioritizing and 
+
+Another reason why this course is needed comes from our experience in the software industry. The weakest link of a software project is often the customer. Many a project would benefit from having a customer who knows how to monitor progress and how he can (and cannot) help the project.
+
+The department should recognize the importance of training software project customers. First step towards this would be creation of a course, even a small one, for just teaching the principles of working as a customer for a software project.
 
 
 Appendix
@@ -155,7 +200,8 @@ The Bremen course is a much more intensive period, consisting of 12 days of 12 h
 * Firstly, such intensity is foreign to the culture at TUT. We feared it would be difficult to attract students to the course. This was later confirmed by student feedback. It could also be difficult to convince the university administration to approve such a course. 
 * Secondly, working 12 hour days is opposed to ideals of agile development. Our goal was to teach students sustainable practices that they could later emulate later in their careers.
 
-### Credit units and relation to OHJ-5100 Web programming course
+
+### Credit points and relation to OHJ-5100 Web programming course
 
 The Agile Web Development course was offered in two ways: (a) as an independent course and (b) in conjunction with OHJ-5100 Web Programming course. The independent course was worth 3 credit points. Passing the independent course required attendance to teaching and finishing the assignment successfully.
 
