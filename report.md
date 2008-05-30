@@ -1,5 +1,7 @@
-Agile Web Development course, spring 2008
-=========================================
+Experiences from Agile Web Development course, spring 2008
+==========================================================
+
+Antti Tarvainen, June 1, 2008
 
 
 Abstract
@@ -23,24 +25,21 @@ We propose that the same course be given next year with a few changes. Most nota
 Introduction
 ------------
 
-This report describes organizing an Agile Web Development (AWD) course at Department of Software Systems at Tampere University of Technology in April 2008.
+This report describes organizing Agile Web Development (AWD) course at Department of Software Systems at Tampere University of Technology in April 2008.
 
-In this report, we describe (a) the goals of the course, (b) how the course was structured to achieve those goals, (c) experiences from the actual course implementation, (d) the feedback from students and customers, and finally (e) the changes we propose for the next year's course.
+The course was organized for the first time this year. The purpose of this report is to document the experiences from the course and to help decide what to do with the course next year. Since the course was novel in many ways, perhaps this report can also benefit other courses.
+
+In the rest of this report, we describe (a) the educational goals of the course, (b) how the course was structured to achieve those goals, (c) experiences from the actual course implementation, (d) the feedback from students and customers, and finally (e) conclusions and the changes we propose for the next year's course.
 
 
-Goals
------
+Educational Goals
+-----------------
 
 We had three educational goals.
 
 1. To teach students agile values.
 2. To teach students agile practices. 
 3. To teach students programming with a modern web framework.
-
-The setting of the course was decided to resemble real-life project work in a fast-paced project.
-
-In addition to the educational goals, 
-
 
 
 ### Agile values
@@ -62,43 +61,41 @@ Combined, there are a few consequences from these values:
 
 ### Agile practices
 
-Agile practices are methods to achieve the agile values. As with agile practices 
+Agile practices are methods to achieve the agile values. There is a large number of them, which we pruned to a few. The priority of the course was to teach:
 
-There is a large number of different agile practices, which we pruned to a few. The priority of the course was to teach:
-
-* test-driven development (or actually behaviour-driven development), and
-* scrum project management
+* **Test-driven Development** (more specifically behaviour-driven development), and
+* **Scrum project management**.
 
 In addition to these, the we planned to teach these, if the time would allow:
 
-* continuous integration,
-* refactoring,
-* pair programming, and
-* retrospectives.
+* **Continuous integration**,
+* **Refactoring**,
+* **Pair programming**, and
+* **Retrospectives**.
 
 
 ### Web programming
 
-The goal 
-
-
-### Other goals
-
-In addition to the educational goals, the course had two other goals: 
-
-1. To test a new kind of a course in the university.
-2. To bring experiences from the industry back to the university.
+...
 
 
 
+Structure
+---------
 
-Planned structure
------------------
+The course lasted 13 days, starting on Wednesday, April 9, 2008, and ending on Friday, April 25, 2008. Sessions started each day at 9:00 and lasted till 16:00. There was a lunch break from 12:00 to 13:00, and shorter breaks two times a day. This totaled to roughly 13*6 = 78 hours of work. No homework was given. Passing the course required continuous or nearly continuous attendance to sessions.
+
+The setting of the course was decided to resemble real-life project work in a fast-paced project. The first three days were preparation. After that, students worked in pairs. Each pair had their own project with a real customer.
+
+The original plan 
+
+
+### Original lecture plan
 
 * first week: three days preparation
   * first day: Ruby
   * second day: TDD, RSpec
-  * third day: Ruby on Rails
+  * third day: Ruby on Rails, Agile
 
 * second week: sprint 1
   * first day of project work: planning
@@ -107,8 +104,11 @@ Planned structure
 * third week: sprint 2
   * goals of sprint 2
 
-Implementation
---------------
+### Actual lecture plan
+
+
+Experiences
+-----------
 
 * student enrollment
 
@@ -177,15 +177,13 @@ We plan to make the following changes for the next year's course.
 
 ### Proposal for another course: Working as an agile customer, 1 cp. 
 
-The project customers wished for more guidance in preparing, monitoring and steering the project.
+The project customers wished for more guidance in preparing, monitoring and steering the project. This is a reasonable request, and we therefore propose a creation of another course. The students of this course would work as customers on the Agile Web Development course. The name of the course would be "Working as an agile customer" and its size one credit point.
 
-Therefore we propose a creation of another course. The students of this course would work as customers on the Agile Web Development course. The name of the course would be "Working as an agile customer" and its size one credit point.
-
-The course would consist of lectures, a workshop, and the project work. The workshop would consist of lectures and prioritizing and 
+The course would consist of lectures, a workshop, and the project work. We would prepare The workshop would 
 
 Another reason why this course is needed comes from our experience in the software industry. The weakest link of a software project is often the customer. Many a project would benefit from having a customer who knows how to monitor progress and how he can (and cannot) help the project.
 
-The department should recognize the importance of training software project customers. First step towards this would be creation of a course, even a small one, for just teaching the principles of working as a customer for a software project.
+The department should recognize the importance of training software project customers. First step towards this would be creation of a course, even a small one, for this purpose.
 
 
 Appendix
