@@ -31,14 +31,45 @@ In this report, we describe (a) the goals of the course, (b) how the course was 
 Goals
 -----
 
-The course had two educational goals.
+We had three educational goals.
 
-1. To teach students agile principles and methods in practice. 
-2. To teach them programming with a modern web framework.
+1. To teach students agile principles.
+2. To teach students agile methods in practice. 
+3. To teach them programming with a modern web framework.
 
 
+### Agile principles
 
-Agile methods are ways to achieve the agile principles in practice. They are important but somewhat meaningless without the understanding of the principles. The priority of the course was to teach test-driven development and scrum project management. In addition, should time allow, continuous integration, refactoring, pair programming and retrospectives were to be included.
+Agile principles describe an understanding - or a widely shared opinion - of what is important in software development. They are not unique to agile methodologies. What differentiates agile from traditional software is the stress that agile puts on these principles.
+
+The canonical source of agile principles is the [agile manifesto](TODO). As with any such document, the interpretation of agile manifesto differs from person to person. What follows, is our interpretation of these principles.
+
+The principles we tried to teach students were the following:
+
+* **Minimality**: The price of a project as a function of its requirements grows faster than linearly. Besides requirements, the same holds true with the number of developers, the amount of documentation, and the size of the code base. To maximize the impact we should minimize the size of the project to include just what is needed and nothing more.
+* **Change**: Customer's understanding of his own needs are always lacking, and thus requirements will always change. The project should prepare for this change. 
+* **Understanding**: Work done without understanding its need leads to trouble. Developer should always understand (a) what he is trying to achieve and (b) why is he trying to achieve it. We can find the root cause by following the chain of whys. The root cause should almost always be "because the customer wants it and we believe it's for the best of the customer". Also, a task done without understanding why it works leads to trouble. Code that "works" is not maintainable if we don't understand how it works.
+
+Combined, there are a few consequences from these principles:
+
+* **Minimality+Change**: Preparation for future grows the project, but may end up outdated. It is very important that plans are lightweight and easily thrown away when outdated.
+* **Minimality+Understanding**: There is a need to understand e.g. the domain area, and document that understanding. On the other hand, we want to minimize the amount of documentation. Thus, we should document our understanding in code. The code should always represent our best understanding of the domain area. The code should be viewed as the most important design document for the project.
+* **Change+Understanding**: The developers' and customer's understanding of the project area should keep improving throughout the project. Much of this comes from the dialogue between them. Customer should have a concrete understanding of what is the status of the project, and where it is heading. Because the future is very uncertain, the basis for the feedback should be a working prototype of the system. Project iterations should be very short and result in a working software that the customer can evaluate.
+
+
+### Agile methods
+
+Agile methods are ways to achieve the agile principles in practice. They are important but somewhat meaningless without the understanding of the principles. There is a very large number of different agile methods, which we pruned to a few. The priority of the course was to teach:
+
+* test-driven development (or actually behaviour-driven development)
+* scrum project management
+
+In addition to these, the following were planned to be taught if the time would allow:
+
+* continuous integration
+* refactoring
+* pair programming
+* retrospectives
 
 Web programming...
 
