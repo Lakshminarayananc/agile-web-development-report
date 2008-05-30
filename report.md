@@ -38,7 +38,7 @@ Educational Goals
 We had two educational goals.
 
 1. To teach students agile development practices. 
-2. To teach students web programming with a modern web framework in a real-life project.
+2. To teach students web programming with a modern web framework.
 
 
 ### Agile development practices
@@ -73,30 +73,41 @@ The course lasted 13 days, starting on Wednesday, April 9, 2008, and ending on F
 
 The setting of the course was decided to resemble real-life project work in a fast-paced project. The first three days were preparation. After that, students worked in pairs. Each pair had their own project with a real customer.
 
-The original plan 
+The original lecture plan for the beginning of the course was as follows:
 
+* Wednesday: Introduction. Basics of Ruby.
+* Thursday: Test-driven development.
+* Friday: Basics of Ruby on Rails. Scrum project management.
 
-### Original lecture plan
+We decided to wait and see, before making plans for the other two weeks. This turned out to be a good decision, since the teaching proceeded more slowly than we had anticipated. 
 
-* first week: three days preparation
-  * first day: Ruby
-  * second day: TDD, RSpec
-  * third day: Ruby on Rails, Agile
+* Wednesday: Introduction. Very basics of Ruby.
+* Thursday: Test-driven development.
+* Friday: More Ruby. Very little of Ruby on Rails.
 
-* second week: sprint 1
-  * first day of project work: planning
-  * goals of sprint 1
+The customers presented the projects to the teams on the first day of the second week. The rest of the day was for planning the project work.
 
-* third week: sprint 2
-  * goals of sprint 2
+For the rest of the course, project work was intertwined with lectures and sometimes exercises. The topics of the lectures were various aspects of Ruby on Rails, web development and agile development. 
 
-### Actual lecture plan
+The original idea was to divide work in to two one-week sprints. In practice, most groups did not follow Scrum carefully, and there was no feeling of completion at the end of the first sprint.
 
+On the last day students presented their finished project to other students.
+
+For a more detailed description of the course structure, see the [course diary](diary.html).
 
 Experiences
 -----------
 
-* student enrollment
+Ten students enrolled to the course. Five of them were Finnish students from TUT, the other five foreign exchange students. 
+
+The teaching of 
+
+There were 
+
+
+For lecturer's day-to-day experiences from the course, see the [course diary](diary.html).
+
+
 
 * deviance from the plan
   * teaching slower
@@ -156,7 +167,9 @@ We plan to make the following changes for the next year's course.
 
 * **The use of test-driven development will be mandated.** With all the other things they need to learn, this may feel painful to students at first. This is exactly the reason why students are unlikely to adopt it by themselves, and why it should be mandated.
 
-* **The preparation of the Scrum sprints will be guided more carefully. Explicit sprint goals will be set.** This will give students a better understanding of Scrum.
+* **The preparation of the Scrum sprints will be guided more carefully.** This will give students a better understanding of Scrum.
+
+* **Deployment will be part of the first sprint.** This will structure the work better, give students a specific goal, and help customers get what they want. (The deployment can be either to a test server provided by the course or to a server provided by the customer.)
 
 * **Specific times will be set aside for customer interaction.**
 
