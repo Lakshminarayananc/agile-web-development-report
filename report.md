@@ -31,11 +31,24 @@ In this report, we describe (a) the goals of the course, (b) how the course was 
 Goals
 -----
 
-There were three broad goals 
+The course had two educational goals.
 
-* web programming
-* agile methods
-* industry experience
+1. To teach students agile principles and methods in practice. 
+2. To teach them programming with a modern web framework.
+
+
+
+Agile methods are ways to achieve the agile principles in practice. They are important but somewhat meaningless without the understanding of the principles. The priority of the course was to teach test-driven development and scrum project management. In addition, should time allow, continuous integration, refactoring, pair programming and retrospectives were to be included.
+
+Web programming...
+
+
+In addition to the educational goals, the course had two other goals: 
+
+1. To test a new kind of a course in the university.
+2. To bring experiences from the industry back to the university.
+
+
 
 
 Planned structure
