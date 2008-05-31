@@ -3,6 +3,9 @@ Agile Web Development course diary
 
 Antti Tarvainen, antti.tarvainen@iki.fi
 
+These are notes I wrote down (mostly) after each day's teaching.
+
+
 
 Wed 2008-04-09
 --------------
@@ -44,11 +47,13 @@ Wed 2008-04-09
 Students were given a specification in an RSpec file and a solution template as a Ruby file. All they needed to solve it was to write a "puts 'Hello, World!'" in the Ruby file and run "spec spec" in the parent directory.
 
 The primary goals of this exercise were
+
 * to introduce Ruby to students
 * to introduce coding tools to the students
 * to make sure everyone's environment was set up properly
 
 A secondary goal was 
+
 * to gently introduce RSpec syntax so students get it more easily on the next day (when TDD with RSpec would be taught).
 
 I asked students if they would like to have me do the example in AptanaStudio or in a plain text editor. The result was about 50-50. I chose AptanaStudio, because I believe it is the tool with more challenges. There were in fact quite a few of them but in about twenty minutes everyone had finished the exercise.
@@ -59,10 +64,12 @@ I asked students if they would like to have me do the example in AptanaStudio or
 This was a more complex Ruby programming exercise. 
 
 The goals of this exercise were
+
 * to introduce these concepts to students: classes, methods, instance variables, iterating arrays with Enumerable methods
 * to teach students how to find information about Ruby libraries
 
 Secondary goals were
+
 * to find out about each students skills to better teach them
 * to promote student cooperation
 
@@ -74,10 +81,12 @@ All students managed to finish or nearly finish this exercise. The students who 
 Students were divided into pairs. Each pair got assigned a few methods from the  Enumerable module. Each pair's assignment was to demonstrate the methods via examples on the board. Afterwards, we went through all the examples and figured out together what each of them did.
 
 The goals of this exercise were
+
 * to make the ruby style enumeration code feel natural to students
 * to have a non-coding task to finish the day
 
 A secondary goal of the exercise was
+
 * to promote student cooperation
 
 This was a fun, lightish exercise for the end of a day.
@@ -127,6 +136,7 @@ Thu 2008-04-10
 Students were asked to implement the same stack class as the teacher did on the demo. They were told to follow the TDD procedure (write tests, FAIL, write code, PASS, refactor, PASS). After they had implemented all that, they were asked to add new features to code using the TDD procedure.
 
 The goals of this exercise were:
+
 * to make the TDD process feel natural to the students.
 * to learn the RSpec syntax.
 
@@ -142,10 +152,12 @@ Some students may have felt that it was boring to implement the same exercise I 
 Students cooperated in writing a bowling game score calculator using the coding dojo method. This is the same TDD example that is used http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata .
 
 The goals of this exercise were:
+
 * To make everyone think about the decisions and difficulties in TDD.
 * To learn to read and communicate in and about code.
 
 Secondary goals of this exercise were:
+
 * To encourage student communication and participation.
 
 I didn't spend much time prioritizing the features before we started coding. That lead to trouble focusing the development. Everyone seemed to be thinking differently on what and how we should design. After about half of the time was used, I stopped the coding, and we had a small communication break. I asked if anyone thought we knew what we were doing. No one thought so. I then gave four prioritized features and we started over. After that the coding started going better. The students finished a couple of simple cases, but the really hard cases were left unsolved.
@@ -193,11 +205,13 @@ Every student got one library/class/module that he needed to get familiar with. 
 I chose pairs so that they were from opposite sides of the room, and with all pairs consisting of one Finn and one foreigner.
 
 The goals were to:
+
 * learn about different libraries.
 * learn how to get information.
 * get more used to writing Ruby.
 
 A secondary goal was:
+
 * to get more familiar with the students on the other side of the room.
 
 This took much more time than I thought it would. The last part felt like it just repeated the middle part. I should have told the students that each would present their _partner's_ work in the end. That would have motivated the middle part more. Now I tried it in the end both ways: student introducing his partners work or his own work.
@@ -213,12 +227,14 @@ After a quick Rails demo showing how to create a view and a controller in Rails,
 
 The themes were: forms with dates, forms without dates, link\_to+image\_tag, and small helpers.
 
+
 The goals were to:
 * Get familiar with working with Aptana Studio and Rails.
 * To learn how to get information.
 * For the teacher to learn about any problems with the environment or any large omissions in teaching.
 
 A secondary goal was:
+
 * To learn something about view helpers in Rails.
 
 The biggest problem was that we didn't have much time and that I didn't have good reference books to give to students. (I had one up-to-date Rails Way and one nearly up-to-date (the newest edition) Agile Web Develoment with Rails, plus two outdated versions of AWDwR).
@@ -545,10 +561,6 @@ The goals of this lecture/demo/exercise were:
 The students found a few of the small problems but missed the large DDD problem of the controller containing important domain logic.
 
 
-### General Notes:
-
-
-
 
 Thu 2008-04-24
 --------------
@@ -575,6 +587,8 @@ Thu 2008-04-24
 I used slides I found from the Internet and covered a few of the most important Rails security threats and how to prevent them. (Cookie-based session vulnerabilities, SQL injection, XSS, CSRF, Javascript attacks, DOS, etc.)
 
 This was a typical boring lecture and not as good as the best ones found on the Internet. I believe a demo of the most important threats plus a pointer to a security checklist would have been better.
+
+(A note added after the course: According to student feedback, the students liked this lecture very much. Very surprising. One of the reasons may be that the lecture is a set of individual topics. If you don't understand one of the topics, you can still follow and understand the rest of them.)
 
 ### General notes:
 
@@ -627,26 +641,25 @@ Each team
 At the end of each presentation we applauded the team for their good work.
 
 The goals of this exercise were:
+
 * to give students the good "finished!" feeling at the end of the project
 * to let students compare their work
 * to highlight the good solutions on each project
 
 Students appeared to be interested in this. Some questions were asked about others' solutions.
 
-It would probably be a good idea to have this at the end of each sprint. That would make other students problems more real, and it would provide a stronger incentive to get the project working at the end of the sprint.
+It might be a good idea to have this at the end of each sprint. That would make other students problems more real, and it would provide a stronger incentive to get the project working at the end of the sprint.
 
 
 ### Retrospective
 
-This time we did it like this:
+Each team discussed among themselves what problems they had, what they learned, and what did they do right. After a few minutes, I talked to teams one by one, semi-privately. I presented my views of the teams strengths and weaknesses and suggested ways to improve their performance after this course.  
 
-Each team discussed among themselves and tried to answer four questions:
+This seemed to be a better way to do the retrospective than the one we used last week. The problem was that it took a lot of time to talk with each team while other teams had to wait. Perhaps this should be interleaved with other between-sprints activities, such as customer feedback and sprint planning?
 
-* What problems did we have?
-* What did we learn?
-* What did we do right?
-*  
+### People over processes lecture.
 
+This was my attempt to end the course with an upbeat "now go and change the world" note and it seemed to work quite nicely. 
 
-### General notes:
+(A month later:) I paraphrased the lecture from memory and saved it here: [People over processes speech](people_over_processes.html).
 

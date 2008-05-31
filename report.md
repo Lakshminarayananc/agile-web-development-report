@@ -29,7 +29,7 @@ This report describes organizing Agile Web Development (AWD) course at Departmen
 
 The course was organized for the first time this year. The purpose of this report is to document the experiences from the course and to help decide what to do with the course next year. Since the course was novel in many ways, teachers of other courses may find this report useful as well.
 
-In the rest of this report, we describe (a) the educational goals of the course, (b) how the course was structured to achieve those goals, (c) lecturer's experiences from the course, (d) the feedback from students and customers, and finally (e) conclusions and the changes we propose for the next year's course.
+In the rest of this report, we describe (a) the educational goals of the course, (b) how the course was structured to achieve those goals, (c) lecturer's observations, (d) the feedback from students and customers, and finally (e) conclusions and changes we propose for the next year's course.
 
 
 Educational Goals
@@ -52,7 +52,7 @@ Agile practices are methods to achieve agile values. There is a large number of 
 * **Test-driven development** (more specifically behaviour-driven development), and
 * **Scrum project management**.
 
-If the time would allow, we planned to teach these:
+If the time would allow, we planned to include:
 
 * **Continuous integration**,
 * **Refactoring**,
@@ -60,10 +60,11 @@ If the time would allow, we planned to teach these:
 * **Retrospectives**.
 
 
-### Web programming
+### Web programming with a modern web framework
 
-...
+Students were assumed to have the theoretical knowledge of web programming equal to course OHJ-5100 Web Programming. (Most students took the courses in conjunction. See Appendix for more information.)
 
+The goal of the Agile Web Development course was to give students practical web programming skills that could be applied beyond the technology used at the course.
 
 
 Structure
@@ -80,13 +81,13 @@ For a more detailed description of the course structure, see the [course diary](
 Lecturer's Experiences
 ----------------------
 
-These are some of our experiences from the course. They are in no particular order.
+These are some of our experiences from the course. They are in no particular order. For lecturer's day-to-day experiences from the course, see the [course diary](diary.html).
 
 ### Things that worked well
 
 * **Students worked on their projects enthusiastically.** I had to remind the students of the lecture breaks and even then many of them often decided to skip them. (I, on the other hand, almost never skipped a break.) On many days, some of the students continued working after 16:00. This all even when the course corresponded with the first warm sunny days of the spring.
 
-* **Ruby on Rails is a good tool for learning agile development.** The 
+* **Ruby on Rails is a good tool for learning agile web development.** Agile methods prefer to spend most of the project in iterative development phase instead of planning activities. This presents a challenge to a short university course. Because of its "convention over configuration" philosophy, starting a Rails project is very fast. The time spent on making architectural choices is minimized, and the iterative phase can start on the first day of project work. Our observations on the course supported this assessment.
 
 * **Using RSpec to describe Ruby exercise requirements worked well.** The test-driven development tool we used on the course was RSpec. The requirements for Ruby exercises were described as RSpec test cases. This way the students got familiar with RSpec on the first day, and the barrier of learning to use the tool for test-driven development on the second day was lower.
 
@@ -103,12 +104,15 @@ These are some of our experiences from the course. They are in no particular ord
   * Wednesday: Introduction. Very basics of Ruby.
   * Thursday: Test-driven development.
   * Friday: More Ruby. Very little of Ruby on Rails.
-
+  
 * **Students paid more attention to technical details than to following agile practices.** In retrospect this is easy to understand. To finish the project, it is necessary to work out technical difficulties. Agile practices, on the other hand do not directly contribute to finishing the work.
   
   * **None of the teams used test-driven development in the project work:** We had originally planned to mandate test-driven development, but decided against it after the first week. Since learning the technical details took more time than planned, we assessed that the combined burden of learning technical details and starting test-driven development would be too much for the students. We gave the students a choice, and none of them decided to use test-driven development.
 
-  * **The teams varied a lot in their adoption of Scrum.** The best team divided the customer wishes to reasonable user stories and the user stories further to individual tasks. They split their user stories to the two sprints and updated their backlogs during the sprints to follow the progress of the real work. The backlogs of the worst team didn't have a clear distinction between stories and tasks. There was no sense of completion at the end of the first sprint, and the team didn't update their backlogs regularly. Their backlog didn't give a clear picture of the status of their project. 
+  * **The teams varied a lot in their adoption of Scrum.** The best team divided the customer wishes to reasonable user stories and the user stories further to individual tasks. They split their user stories to the two sprints and updated their backlogs during the sprints to follow the progress of the real work. The backlogs of the worst team didn't have a clear distinction between stories and tasks. There was no sense of completion at the end of the first sprint, and the team didn't update their backlogs regularly. Their backlog didn't give a clear picture of the status of their project.
+
+* **There was not enough dialogue with the customer.** The team and the customer should collaborate to make the most suitable software possible. The customer knows what he wants and understands the domain area. The team understands the implementation constraints. Without good dialogue there is a danger that a wrong problem is solved, or that the solution to the problem is much more expensive than needed. On this course, there was little collaboration between the customer and the team after their initial meeting.
+
 
 ### Other observations
 
@@ -116,41 +120,79 @@ These are some of our experiences from the course. They are in no particular ord
 
 
 
-* **Scrum
-Some teams 
-
-  * agile part smaller: 1. no TDD 2. Scrum not really Scrum
-  * less dialogue with customer
-
-
-* impressions of student work
-  * enthusiasm
-  * focus on technical issues
-
-* link to course diary
-
-
-
-For lecturer's day-to-day experiences from the course, see the [course diary](diary.html).
-
-
-### Things that worked well
-
-
-
-
 Feedback
 --------
 
-* student feedback
-  * 
+### Student feedback
 
-* customer feedback
-  * generally satisfied
-  * wished 
+Student feedback was collected on the last day of the course. The feedback was collected anonymously on a [feedback form](feedback_form.pdf). Two students couldn't attend, so only eight students gave feedback. 
 
-* feedback from prof Bormann
-  * 
+The following subsections show the results. 
+
+#### Course in general
+
+General satisfaction with the course was asked with the question "How was the course?" The answers averaged 4.4 where grade 5 is "very good" and grade 1 "very bad".
+
+![Feedback average 4.4 where 5 = very good and 1 = very bad](charts/overall2.png "Student feedback")
+
+#### Learning by topic
+
+"How much did you learn about these topics?" 5 = very much, 1 = very little.
+
+![Perceived learning per topic](charts/perceived_learning_per_topic_small.png "Student feedback")
+
+Analysis:
+
+* This is a difficult question to analyze. For example, a student may give a low rating to a topic because he/she already knew much about it, or because he/she didn't understand much about what the teacher was saying. We must be careful if we draw conclusions from these answers.
+
+* The students felt they learned a lot about Ruby and Rails technologies, but less about more general subjects.
+
+#### Usefulness of assignment activities
+
+"How useful were these assignment activities for your learning?" 5 = very useful, 1 = very useless.
+
+![Assignment activity usefulness](charts/assignment_activity_usefulness_small.png "Student feedback")
+
+Analysis:
+
+* The most technical part of the work, coding, was perceived most useful. This is in line with the previous question.
+
+#### Sessions
+
+"How did you like each of these sessions? (Leave the line empty if you cannot remember.)" 5 = very good, 1 = very bad.
+
+In the chart below, the names of the different sessions are shown in a shortened form. For the original names with explanations, see the [feedback form](feedback_form.pdf). 
+
+![Session feedback](charts/session_feedback_small.png "Student feedback")
+
+Analysis:
+
+* Students liked sessions that were immediately useful to them, such as the "lecture/demo to get the assignment started", "rails view/controller demo", "Ajax lectures by prof. Bormann", and "Ruby exercise (booklist.rb)".
+
+* The success of the "TDD example / coding exercise" is a surprise when compared to other TDD topics. It is also a surprise because it seemed during the exercise that all students didn't really understand TDD.
+
+* [Coding dojo]() is an exercise for learning TDD where two developers pair for coding and the other students watch. Every five minutes one of the watchers takes place of one of the coders. It is quite difficult to write a good program that way, and thus the exercise can be frustrating. Besides learning TDD, the dojo helps understand how other programmers think.
+
+  There are ways to improve the coding dojo exercise for the next year. We are probably going to give it another try. If the students still don't like it next year, we will probably drop the exercise in the future.
+
+
+#### Changes for the next year
+
+"We try to improve the course for the next year. In your opinion, how do these alternative course formats sound compared to this yearʼs format?" 5 = much better, 1 = much worse. "Just as it was this time" was pre-filled with value 3.
+
+In the chart below, the names of the different options are shown in a shortened form. For the original names with explanations, see the [feedback form](feedback_form.pdf). 
+
+![Changes for the next year](charts/changes_for_next_year_small.png "Student feedback")
+
+Analysis:
+
+* The explanation for "extreme version" in the feedback form was "12 days straight, including weekend, 9-21 each day". This is the way a similar course is taught in the University of Bremen. Although the course in Bremen is well-liked by its students, the idea of such a course was not popular among the students of the TUT course.
+
+### Customer feedback
+
+Feedback from customers was collected via email after the assignments were finished. Customers were generally happy with the results. ´
+
+The customers wished that the project had been deployed to use. Now they just received the project source code. Some teams provided installation instructions, other teams didn't.
 
 
 Conclusions
@@ -171,18 +213,18 @@ We plan to make the following changes for the next year's course.
   1. Monday: Introduction to the course. Learning to use the programming tools. Learning Ruby.
   2. Tuesday: Learning more Ruby.
   3. Wednesday: Learning Rails and the tool support for it.
-  4. Thursday: Learning more Rails.
-  5. Friday: Learning TDD with Spec:Rails.
+  4. Thursday: Rails exercise: small project from start to end.
+  5. Friday: Learning TDD as it is used with Rails.
 
-  This should also give students a better chance to estimate how much they can achieve during the project, and the Scrum sprint goals will be more meaningful. 
-
-  The two weeks of project work will be much like they were this year, only more structured, and possibly with additional lectures about agile topics.
+  This should also give students a better chance to estimate how much they can achieve during the project, and the Scrum sprint goals will be more meaningful. The two weeks of project work will be much like they were this year, only more structured, and possibly with additional lectures about agile topics.
 
 * **The use of test-driven development will be mandated.** With all the other things they need to learn, this may feel painful to students at first. This is exactly the reason why students are unlikely to adopt it by themselves, and why it should be mandated.
 
-* **The preparation of the Scrum sprints will be guided more carefully.** This will give students a better understanding of Scrum.
+* **The preparation of the sprints will be guided more carefully.** This will give students a better understanding of Scrum, and help them work in a more agile way.
 
-* **Deployment will be part of the first sprint.** This will structure the work better, give students a specific goal, and help customers get what they want. (The deployment can be either to a test server provided by the course or to a server provided by the customer.)
+* **The software will be deployed. The first deployment is at the end of the first sprint.** (The deployment can be either to a test server provided by the course or to a server of the customer.) This will give students a specific goal and help customers get what they want. Most importantly, a project can not be described as agile unless it produces working software at the end of sprints. Without deployment, software is not really working, and thus deployment must be part of the project from the very beginning.
+
+
 
 * **Specific times will be set aside for customer interaction.**
 

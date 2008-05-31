@@ -5,9 +5,13 @@
 		<meta name="Format" content="complete" />
 	</head>
 <body>
-<h1 id="abstract">Abstract</h1>
+<h1 id="experiencesfromagilewebdevelopmentcoursespring2008">Experiences from Agile Web Development course, spring 2008</h1>
 
-<p>We organized a thirteen-day Agile Web Development course at Department of Software Systems at Tampere University of Technology in April 2008. The goal of the course was to teach students agile development practices and web programming in a fast-paced project with real customers. </p>
+<p>Antti Tarvainen, June 1, 2008</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>We organized a thirteen-day Agile Web Development course at Department of Software Systems at Tampere University of Technology in April 2008. The goal of the course was to teach students agile development and web programming in a fast-paced project with real customers. </p>
 
 <p>The daily sessions started at 9:00 each morning and lasted till 16:00, with a one-hour lunch break at the middle of the day. First three days were preparation for the project assignment. On the remaining ten days, lectures and exercises were intertwined with project work. </p>
 
@@ -19,13 +23,183 @@
 
 <p><img id="feedbackaverage4.4where5verygoodand1verybad" src="charts/overall2.png" alt="Feedback average 4.4 where 5 = very good and 1 = very bad" title="Student feedback" /></p>
 
-<p>We propose that the same course be given next year with a few changes. Most notably, to ease wrestling with technical issues during the project work and to allow more focus on agile programming practices, the course preparation period should be lengthened from three days to five, bringing the total length to fifteen days.</p>
+<p>We propose that the same course be given next year with a few changes. Most notably, to ease wrestling with technical issues during the project work and to allow more focus on agile programming practices, the course preparation period should be lengthened from three days to five, bringing the total length of the course to fifteen days. We also propose creation of another course &#8220;Working as a customer in an agile software project&#8221;, 1 cp.</p>
 
-<h1 id="introduction">Introduction</h1>
+<h2 id="introduction">Introduction</h2>
 
-<p>This report describes organizing an Agile Web Development (AWD) course at Department of Software Systems at Tampere University of Technology in April 2008.</p>
+<p>This report describes organizing Agile Web Development (AWD) course at Department of Software Systems at Tampere University of Technology in April 2008.</p>
 
-<h2 id="origins">Origins</h2>
+<p>The course was organized for the first time this year. The purpose of this report is to document the experiences from the course and to help decide what to do with the course next year. Since the course was novel in many ways, teachers of other courses may find this report useful as well.</p>
+
+<p>In the rest of this report, we describe (a) the educational goals of the course, (b) how the course was structured to achieve those goals, (c) lecturer&#8217;s observations, (d) the feedback from students and customers, and finally (e) conclusions and changes we propose for the next year&#8217;s course.</p>
+
+<h2 id="educationalgoals">Educational Goals</h2>
+
+<p>We had two educational goals.</p>
+
+<ol>
+<li>To teach students agile development practices. </li>
+<li>To teach students web programming with a modern web framework.</li>
+</ol>
+
+<h3 id="agiledevelopmentpractices">Agile development practices</h3>
+
+<p>Agile software development is a fuzzy term that encompasses a lot of different methodologies. The different methodologies can differ a lot in practice. They do, however, share values: a core set of beliefs about what is important in software development. The difference between agile methodologies and traditional software development is the stress agile methodologies put on these values. The most widely cited description of agile values is <a href="TODO">Agile Manifesto</a>.</p>
+
+<p>In our view, values are the most important part of agile development. However, true appreciation of the values only comes with experience. Therefore the focus on this course was on teaching agile practices, not values directly.</p>
+
+<p>Agile practices are methods to achieve agile values. There is a large number of them, out of which we chose a few. The priority of the course was to teach:</p>
+
+<ul>
+<li><strong>Test-driven development</strong> (more specifically behaviour-driven development), and</li>
+<li><strong>Scrum project management</strong>.</li>
+</ul>
+
+<p>If the time would allow, we planned to teach these:</p>
+
+<ul>
+<li><strong>Continuous integration</strong>,</li>
+<li><strong>Refactoring</strong>,</li>
+<li><strong>Pair programming</strong>, and</li>
+<li><strong>Retrospectives</strong>.</li>
+</ul>
+
+<h3 id="webprogramming">Web programming</h3>
+
+<p>&#8230;</p>
+
+<h2 id="structure">Structure</h2>
+
+<p>The course lasted 13 days, starting on Wednesday, April 9, 2008, and ending on Friday, April 25, 2008. The entire course was held in one computer lab. Sessions started each day at 9:00 and lasted till 16:00. There was a lunch break from 12:00 to 13:00, and shorter breaks two times a day. This totaled to roughly 13*6 = 78 hours of work. No homework was given. Passing the course required continuous or nearly continuous attendance to sessions, and finishing the project work satisfactorily.</p>
+
+<p>The setting of the course emulated real-life software work in a fast-paced project. The first three days were preparation. The other two weeks were project work, divided into two one-week Scrum sprints. Project work was intertwined with lectures and exercises. The topics of the lectures were various aspects of Ruby on Rails, web development and agile development.</p>
+
+<p>Ten students enrolled to the course. Five of them were Finnish students from TUT, the other five foreign exchange students. Most of the students had software development as their major subject. There was a wide range of skills, but even the worst students had good enough skills for attending, and eventually completing the course.</p>
+
+<p>For a more detailed description of the course structure, see the <a href="diary.html">course diary</a>.</p>
+
+<h2 id="lecturersexperiences">Lecturer&#8217;s Experiences</h2>
+
+<p>These are some of our experiences from the course. They are in no particular order. For lecturer&#8217;s day-to-day experiences from the course, see the <a href="diary.html">course diary</a>.</p>
+
+<h3 id="thingsthatworkedwell">Things that worked well</h3>
+
+<ul>
+<li><p><strong>Students worked on their projects enthusiastically.</strong> I had to remind the students of the lecture breaks and even then many of them often decided to skip them. (I, on the other hand, almost never skipped a break.) On many days, some of the students continued working after 16:00. This all even when the course corresponded with the first warm sunny days of the spring.</p></li>
+<li><p><strong>Ruby on Rails is a good tool for learning agile web development.</strong> Agile methods prefer to spend most of the project in iterative development phase instead of planning activities. This presents a challenge to a short university course. Because of its &#8220;convention over configuration&#8221; philosophy, starting a Rails project is very fast. The time spent on making architectural choices is minimized, and the iterative phase can start on the first day of project work. Our observations on the course supported this assessment.</p></li>
+<li><p><strong>Using RSpec to describe Ruby exercise requirements worked well.</strong> The test-driven development tool we used on the course was RSpec. The requirements for Ruby exercises were described as RSpec test cases. This way the students got familiar with RSpec on the first day, and the barrier of learning to use the tool for test-driven development on the second day was lower.</p></li>
+</ul>
+
+<h3 id="thingsthatshouldbeimproved">Things that should be improved</h3>
+
+<ul>
+<li><p><strong>The first week&#8217;s exercises took longer than expected.</strong> This added to the technical detail burden of the second week. The original topic plan for the preparation period was as follows:</p>
+
+<ul>
+<li>Wednesday: Introduction. Basics of Ruby.</li>
+<li>Thursday: Test-driven development.</li>
+<li>Friday: Basics of Ruby on Rails. Scrum project management.</li>
+</ul>
+
+<p>The actual topics of the first three days were:</p>
+
+<ul>
+<li>Wednesday: Introduction. Very basics of Ruby.</li>
+<li>Thursday: Test-driven development.</li>
+<li>Friday: More Ruby. Very little of Ruby on Rails.</li>
+</ul></li>
+<li><p><strong>Students paid more attention to technical details than to following agile practices.</strong> In retrospect this is easy to understand. To finish the project, it is necessary to work out technical difficulties. Agile practices, on the other hand do not directly contribute to finishing the work.</p>
+
+<ul>
+<li><p><strong>None of the teams used test-driven development in the project work:</strong> We had originally planned to mandate test-driven development, but decided against it after the first week. Since learning the technical details took more time than planned, we assessed that the combined burden of learning technical details and starting test-driven development would be too much for the students. We gave the students a choice, and none of them decided to use test-driven development.</p></li>
+<li><p><strong>The teams varied a lot in their adoption of Scrum.</strong> The best team divided the customer wishes to reasonable user stories and the user stories further to individual tasks. They split their user stories to the two sprints and updated their backlogs during the sprints to follow the progress of the real work. The backlogs of the worst team didn&#8217;t have a clear distinction between stories and tasks. There was no sense of completion at the end of the first sprint, and the team didn&#8217;t update their backlogs regularly. Their backlog didn&#8217;t give a clear picture of the status of their project.</p></li>
+</ul></li>
+<li><p><strong>There was not enough dialogue with the customer.</strong> The team and the customer should collaborate to make the most suitable software possible. The customer knows what he wants and understands the domain area. The team understands the implementation constraints. Without good dialogue there is a danger that a wrong problem is solved, or that the solution to the problem is much more expensive than needed. On this course, there was little collaboration between the customer and the team after their initial meeting.</p></li>
+</ul>
+
+<h3 id="otherobservations">Other observations</h3>
+
+<ul>
+<li><strong>There was a noticeable difference between the Finns and the foreign students.</strong> The Finns seemed more ready for the course, and in the end got better results. There are many possible reasons for this: communication difficulties, prior skills, the lecturer being a TUT alumnus, etc. There was a difference in attitude about learning agile development, again Finns being more interested in it. In learning web development and finishing the project, all students showed very good attitude. </li>
+</ul>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Student feedback was collected on the last day of the course. The feedback was collected anonymously on a <a href="feedback_form.pdf">feedback form</a>. Two students couldn&#8217;t attend, so only eight students gave feedback. </p>
+
+<p>General satisfaction with the course was asked with the question &#8220;How was the course?&#8221; The answers averaged 4.4 where grade 5 is &#8220;very good&#8221; and grade 1 &#8220;very bad&#8221;.</p>
+
+<p><img id="feedbackaverage4.4where5verygoodand1verybad" src="charts/overall2.png" alt="Feedback average 4.4 where 5 = very good and 1 = very bad" title="Student feedback" /></p>
+
+<p>Students were asked to evaluate how much they learned about each topic. The range of answers was from 5 = very much to 1 = very little.</p>
+
+<p><img id="perceivedlearningpertopic" src="charts/perceived_learning_per_topic_small.png" alt="Perceived learning per topic" title="Student feedback" /></p>
+
+<p><img id="assignmentactivityusefulness" src="charts/assignment_activity_usefulness_small.png" alt="Assignment activity usefulness" title="Student feedback" /></p>
+
+<p><img id="sessionfeedback" src="charts/session_feedback_small.png" alt="Session feedback" title="Student feedback" /></p>
+
+<p><img id="changesforthenextyear" src="charts/changes_for_next_year_small.png" alt="Changes for the next year" title="Student feedback" /></p>
+
+<h3 id="customerfeedback">Customer feedback</h3>
+
+<ul>
+<li><p>customer feedback</p>
+
+<ul>
+<li>generally satisfied</li>
+<li>wished </li>
+</ul></li>
+<li><p>feedback from prof Bormann</p>
+
+<ul>
+* 
+</ul></li>
+</ul>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>The course was a partial success. Three goals were set for the course: to teach agile values, agile practices and web programming. Out of these only the last one was realized with satisfactorily. However, the student feedback from the course was very positive.</p>
+
+<p>We believe that the course - implemented even as it was this year - would be a valuable addition to the department&#8217;s course palette. The course can be made still much better. Therefore, we propose that the course be given next year, but with a few changes.</p>
+
+<h3 id="plannedchangesforthenextyear">Planned changes for the next year</h3>
+
+<p>We plan to make the following changes for the next year&#8217;s course.</p>
+
+<ul>
+<li><p><strong>The course will be lengthened from 13 days to 15 days.</strong> This will allow for more preparation before the actual assignment work begins. The focus of the preparation will be teaching technical details. This way the work on the assignment should feel less painful and more agile. </p>
+
+<p>Our plan for the structure of the first week looks like this:</p>
+
+<ol>
+<li>Monday: Introduction to the course. Learning to use the programming tools. Learning Ruby.</li>
+<li>Tuesday: Learning more Ruby.</li>
+<li>Wednesday: Learning Rails and the tool support for it.</li>
+<li>Thursday: Rails exercise: small project from start to end.</li>
+<li>Friday: Learning TDD as it is used with Rails.</li>
+</ol>
+
+<p>This should also give students a better chance to estimate how much they can achieve during the project, and the Scrum sprint goals will be more meaningful. The two weeks of project work will be much like they were this year, only more structured, and possibly with additional lectures about agile topics.</p></li>
+<li><p><strong>The use of test-driven development will be mandated.</strong> With all the other things they need to learn, this may feel painful to students at first. This is exactly the reason why students are unlikely to adopt it by themselves, and why it should be mandated.</p></li>
+<li><p><strong>The preparation of the sprints will be guided more carefully.</strong> This will give students a better understanding of Scrum, and help them work in a more agile way.</p></li>
+<li><p><strong>The software will be deployed. The first deployment is at the end of the first sprint.</strong> (The deployment can be either to a test server provided by the course or to a server of the customer.) This will give students a specific goal and help customers get what they want. Most importantly, a project can not be described as agile unless it produces working software at the end of sprints. Without deployment, software is not really working, and thus deployment must be part of the project from the very beginning.</p></li>
+<li><p><strong>Specific times will be set aside for customer interaction.</strong></p></li>
+</ul>
+
+<h3 id="proposalforanothercourse:workingasacustomerinanagilesoftwareproject1cp.">Proposal for another course: Working as a customer in an agile software project, 1 cp.</h3>
+
+<p>The project customers wished for more guidance in preparing, monitoring and steering the project. This is a reasonable request, and we therefore propose a creation of another course. The students of this course would work as customers on the Agile Web Development course. The name of the course would be &#8220;Working as a customer in an agile software project&#8221; and its size one credit point.</p>
+
+<p>The course would consist of lectures, a workshop, and the project work. We would prepare The workshop would </p>
+
+<p>Another reason why this course is needed comes from our experience in the software industry. The weakest link of a software project is often the customer. Many a project would benefit from having a customer who knows how to monitor progress and how he can (and cannot) help the project.</p>
+
+<p>The department should recognize the importance of training software project customers. First step towards this would be creation of a course, even a small one, for this purpose.</p>
+
+<h2 id="appendix">Appendix</h2>
+
+<h3 id="origins">Origins</h3>
 
 <p>The course was modeled after an Agile Web Entwicklung course held at the University of Bremen by prof. Carsten Bormann. In the end there were many differences between the courses. </p>
 
@@ -36,28 +210,12 @@
 <li>Secondly, working 12 hour days is opposed to ideals of agile development. Our goal was to teach students sustainable practices that they could later emulate later in their careers.</li>
 </ul>
 
-<h2 id="structureofthisreport">Structure of this report</h2>
+<h3 id="creditpointsandrelationtoohj-5100webprogrammingcourse">Credit points and relation to OHJ-5100 Web programming course</h3>
 
-<p>In the remainder of this report, we describe (a) the goals of the course, (b) how the course was structured to achieve those goals, (c) how the actual course went, (d) the feedback by students and customers, and finally (e) the changes we propose for the next year&#8217;s course.</p>
-
-<h1 id="goals">Goals</h1>
-
-<h1 id="plannedstructure">Planned structure</h1>
-
-<h2 id="relationtoohj-5100webprogrammingcourse">Relation to OHJ-5100 Web programming course</h2>
-
-<p>The course was offered in two ways: (a) as an independent course and (b) in conjunction with OHJ-5100 Web Programming course. The independent course was worth 3 credit points. Passing the independent course required attendance to teaching and finishing the assignment successfully.</p>
+<p>The Agile Web Development course was offered in two ways: (a) as an independent course and (b) in conjunction with OHJ-5100 Web Programming course. The independent course was worth 3 credit points. Passing the independent course required attendance to teaching and finishing the assignment successfully.</p>
 
 <p>In conjunction with OHJ-5100, the course replaced the normal J2EE assignment, two lectures and three weekly exercises of OHJ-5100. The total course credit was 6 credit points: 4 credit points from OHJ-5100 and 2 credit points from 2 credit points from AWD. Passing the two courses required attendance to AWD teaching, successfully finishing the AWD assignment, finishing at least four OHJ-5100 weekly exercises and passing the OHJ-5100 exam.</p>
 
 <p>Of the ten students enrolled to the course, nine took the course in conjunction with OHJ-5100.</p>
-
-<h1 id="implementation">Implementation</h1>
-
-<h1 id="feedback">Feedback</h1>
-
-<h1 id="proposedchanges">Proposed changes</h1>
-
-<h1 id="summary">Summary</h1>
 </body>
 </html>
