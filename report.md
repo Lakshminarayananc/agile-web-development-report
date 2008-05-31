@@ -45,7 +45,7 @@ We had two educational goals.
 
 Agile software development is a fuzzy term that encompasses a lot of different methodologies. The different methodologies can differ a lot in practice. They do, however, share values: a core set of beliefs about what is important in software development. The difference between agile methodologies and traditional software development is the stress agile methodologies put on these values. The most widely cited description of agile values is [Agile Manifesto](TODO).
 
-In our view, the most important part of learning agile development is learning its values. However, it seems to us that true appreciation of them only comes with experience. Therefore the focus was in learning agile practices, not values.
+In our view, values are the most important part of agile development. However, true appreciation of the values only comes with experience. Therefore the focus on this course was on teaching agile practices, not values directly.
 
 Agile practices are methods to achieve agile values. There is a large number of them, out of which we chose a few. The priority of the course was to teach:
 
@@ -69,45 +69,54 @@ If the time would allow, we planned to teach these:
 Structure
 ---------
 
-The course lasted 13 days, starting on Wednesday, April 9, 2008, and ending on Friday, April 25, 2008. Sessions started each day at 9:00 and lasted till 16:00. There was a lunch break from 12:00 to 13:00, and shorter breaks two times a day. This totaled to roughly 13*6 = 78 hours of work. No homework was given. Passing the course required continuous or nearly continuous attendance to sessions.
+The course lasted 13 days, starting on Wednesday, April 9, 2008, and ending on Friday, April 25, 2008. The entire course was held in one computer lab. Sessions started each day at 9:00 and lasted till 16:00. There was a lunch break from 12:00 to 13:00, and shorter breaks two times a day. This totaled to roughly 13*6 = 78 hours of work. No homework was given. Passing the course required continuous or nearly continuous attendance to sessions, and finishing the project work satisfactorily.
 
-The setting of the course was decided to resemble real-life project work in a fast-paced project. The first three days were preparation. After that, students worked in pairs. Each pair had their own project with a real customer.
+The setting of the course emulated real-life software work in a fast-paced project. The first three days were preparation. The other two weeks were project work, divided into two one-week Scrum sprints. Project work was intertwined with lectures and exercises. The topics of the lectures were various aspects of Ruby on Rails, web development and agile development.
 
-The original topic plan for the first week was as follows:
-
-* Wednesday: Introduction. Basics of Ruby.
-* Thursday: Test-driven development.
-* Friday: Basics of Ruby on Rails. Scrum project management.
-
-We decided to wait and see, before making plans for the other two weeks. This turned out to be a good decision, since the teaching proceeded more slowly than we had anticipated. The actual topics of the first three days were:
-
-* Wednesday: Introduction. Very basics of Ruby.
-* Thursday: Test-driven development.
-* Friday: More Ruby. Very little of Ruby on Rails.
-
-For the rest of the course, project work was intertwined with lectures and sometimes exercises. The topics of the lectures were various aspects of Ruby on Rails, web development and agile development
-
-The project work divided into two one-week sprints. In practice the effect was not very good, as Scrum was followed quite liberally.
+Ten students enrolled to the course. Five of them were Finnish students from TUT, the other five foreign exchange students. Most of the students had software development as their major subject. There was a wide range of skills, but even the worst students had good enough skills for attending, and eventually completing the course.
 
 For a more detailed description of the course structure, see the [course diary](diary.html).
 
 Lecturer's Experiences
 ----------------------
 
-In this chapter we present our experiences from the course. They are in no particular order.
+These are some of our experiences from the course. They are in no particular order.
 
-Ten students enrolled to the course. Five of them were Finnish students from TUT, the other five foreign exchange students. Most of the students had software development as their major subject. There was a wide range of skills, but even the worst students had good enough skills for attending, and eventually completing the course.
+### Things that worked well
 
-There was a noticeable difference between the Finns and the foreign students. The Finns seemed more ready for the course, and in the end got better results. There are many possible reasons for this: communication difficulties, prior skills, the lecturer being a TUT alumni, etc. There was a difference in attitude about learning agile development, again Finns being more interested in it. In learning web development and finishing the project, all students showed very good attitude. 
+* **Students worked on their projects enthusiastically.** I had to remind the students of the lecture breaks and even then many of them often decided to skip them. (I, on the other hand, almost never skipped a break.) On many days, some of the students continued working after 16:00. This all even when the course corresponded with the first warm sunny days of the spring.
 
-Students were enthusiastic about finishing their project. I had to remind the students of the lecture breaks and even then many of them often decided to skip them. (I, on the other hand, almost never skipped a break.) On many days, some of the students continued working after 16:00. This all even when the course corresponded with the first warm sunny days of the spring.
+* **Ruby on Rails is a good tool for learning agile development.** The 
 
-I underestimated how much of students' time would be consumed by working with technical details. This reduced the attention they could focus on agile principles. I realized this early on the second week. I had planned to mandate Test-driven development, but decided against it, so that the students wouldn't get buried under all the things they had to learn.
+* **Using RSpec to describe Ruby exercise requirements worked well.** The test-driven development tool we used on the course was RSpec. The requirements for Ruby exercises were described as RSpec test cases. This way the students got familiar with RSpec on the first day, and the barrier of learning to use the tool for test-driven development on the second day was lower.
 
-I had underestimated the time the first week's exercises would take. This further added to the technical detail burden of the second week. 
+### Things that should be improved
+
+* **The first week's exercises took longer than expected.** This added to the technical detail burden of the second week. The original topic plan for the preparation period was as follows:
+  
+  * Wednesday: Introduction. Basics of Ruby.
+  * Thursday: Test-driven development.
+  * Friday: Basics of Ruby on Rails. Scrum project management.
+  
+  The actual topics of the first three days were:
+  
+  * Wednesday: Introduction. Very basics of Ruby.
+  * Thursday: Test-driven development.
+  * Friday: More Ruby. Very little of Ruby on Rails.
+
+* **Students paid more attention to technical details than to following agile practices.** In retrospect this is easy to understand. To finish the project, it is necessary to work out technical difficulties. Agile practices, on the other hand do not directly contribute to finishing the work.
+  
+  * **None of the teams used test-driven development in the project work:** We had originally planned to mandate test-driven development, but decided against it after the first week. Since learning the technical details took more time than planned, we assessed that the combined burden of learning technical details and starting test-driven development would be too much for the students. We gave the students a choice, and none of them decided to use test-driven development.
+
+  * **The teams varied a lot in their adoption of Scrum.** The best team divided the customer wishes to reasonable user stories and the user stories further to individual tasks. They split their user stories to the two sprints and updated their backlogs during the sprints to follow the progress of the real work. The backlogs of the worst team didn't have a clear distinction between stories and tasks. There was no sense of completion at the end of the first sprint, and the team didn't update their backlogs regularly. Their backlog didn't give a clear picture of the status of their project. 
+
+### Other observations
+
+* **There was a noticeable difference between the Finns and the foreign students.** The Finns seemed more ready for the course, and in the end got better results. There are many possible reasons for this: communication difficulties, prior skills, the lecturer being a TUT alumnus, etc. There was a difference in attitude about learning agile development, again Finns being more interested in it. In learning web development and finishing the project, all students showed very good attitude. 
 
 
 
+* **Scrum
 Some teams 
 
   * agile part smaller: 1. no TDD 2. Scrum not really Scrum
