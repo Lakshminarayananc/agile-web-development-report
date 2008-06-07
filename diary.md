@@ -1,5 +1,5 @@
-Agile Web Development course diary
-==================================
+Agile Web Development course diary, spring 2008
+===============================================
 
 Antti Tarvainen, antti.tarvainen@iki.fi
 
