@@ -129,7 +129,7 @@ Student feedback was collected on the last day of the course. The feedback was c
 
 #### Course in general
 
-General satisfaction with the course was asked with the question "How was the course?" The answers averaged 4.4 where grade 5 is "very good" and grade 1 "very bad".
+General satisfaction with the course was asked with the question "How did you like the course?" The answers averaged 4.4 where grade 5 is "very good" and grade 1 "very bad".
 
 ![Feedback average 4.4 where 5 = very good and 1 = very bad](charts/overall2.png "Student feedback")
 
@@ -147,7 +147,7 @@ Comments by students (editorialized):
 
 Comments by students (editorialized):
 
-* "It's hard to estimate when you don't know how much there is to learn."
+* (Comment about the question:) "It's hard to estimate when you don't know how much there is to learn."
 * Test-Driven Development: "Actually I don't want to learn any TDD. Time for that later, when I am a better programmer." (3)
 
 Analysis:
@@ -215,7 +215,7 @@ Analysis:
 
 #### Changes for the next year
 
-"We try to improve the course for the next year. In your opinion, how do these alternative course formats sound compared to this yearʼs format?" 5 = much better, 1 = much worse. "Just as it was this time" was pre-filled with value 3.
+"We try to improve the course for the next year. In your opinion, how do these alternative course formats sound compared to this yearʼs format?" 5 = much better, 1 = much worse. "Like this year" was pre-filled with value 3.
 
 In the chart below, the names of the different options are shown in a shortened form. For the original names with explanations, see the [feedback form](feedback_form.pdf). 
 
@@ -243,6 +243,8 @@ Comments by students (editorialized):
 
 
 Analysis:
+
+* The comment "More books wouldn't hurt." probably refers to the books provided by the department. We had 4 copies of Programming Ruby, 2 copies of Agile Web Development with Rails (2nd ed.), 1 copy of Agile Web Development with Rails (1st ed.), 1 copy of Rails Recipes, 1 copy of The Ruby Way and 1 copy of The Rails Way. The best book was Agile Web Development with Rails (2nd ed.). For the next year's course, that is the book we should probably buy more of. [Third edition](http://pragprog.com/titles/rails3/agile-web-development-with-rails-third-edition) of that book is now in beta.
 
 * The explanation for "extreme version" in the feedback form was "12 days straight, including weekend, 9-21 each day". This is the way a similar course is taught in the University of Bremen. Although the course in Bremen is well-liked by its students, the idea of such a course was not popular among the students of the TUT course.
 
